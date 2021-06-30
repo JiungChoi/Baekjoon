@@ -1,5 +1,5 @@
- sys
-T import= int(input())
+import sys
+T = int(input())
 for _ in range(T):
     M, N, K = map(int, sys.stdin.readline().split())
     arry = [[[] for _ in range(M)]for _ in range(N)]
