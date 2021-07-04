@@ -13,4 +13,4 @@ for i in range(E):
     adj[u-1][v-1] = str(w)
 
 for i in range(V):
-    dist[i] = min(dist[i],dist[K-1] + adj[K-1][i])
+    dist[i] = min(dist[i],dist[K-1] + int(adj[K-1][i]))
