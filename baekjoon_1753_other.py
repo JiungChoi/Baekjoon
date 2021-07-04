@@ -20,7 +20,8 @@ def Dijkstra(start):
     while heap:
         wei, now = heapq.heappop(heap)
 
-        #현재 테이블과 비교하여 불필요한(더 가중치가 큰) 튜플이면 무시.
+        #현재 테이블과 비교하여 불필
+        # 요한(더 가중치가 큰) 튜플이면 무시.
         if dp[now] < wei:
             continue
 
