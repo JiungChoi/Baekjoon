@@ -8,7 +8,7 @@ for i in list(map(int,stdin.readline().split())):
     elif i<2:
         continue
     else:
-        for j in range(2,i):
+        for j in range(1, i//2 +1):
             if i%j==0:
                 break
         else: cnt += 1
