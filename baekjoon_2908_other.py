@@ -1,9 +1,4 @@
-
 a, b =input().split()
-
-
-a = a[::-1]
-print(a)
 
 def reading(k):
     k = k[::-1]
